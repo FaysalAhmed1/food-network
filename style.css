@@ -7,7 +7,7 @@ h1{
 }
 
 .highlight{
-    color: aqua;
+    color: rgb(250, 105, 69);
 }
 .flexible-container{
     display: flex;
@@ -25,9 +25,14 @@ h1{
     width: 50%;
     padding-left: 5%;
     padding-top: 10%;
+    color: rgb(97, 97, 97);
 }
 .half-width img{
     width: 70%;
+}
+
+.half-width p{
+    margin-bottom: 50px;
 }
 .fraction-width{
     width: 30%;
@@ -45,12 +50,15 @@ h1{
 .recepie{
     margin-left: 5%;
     margin-right: 5%;
+    text-align: center;
+    color: rgb(97, 97, 97);
 }
 .shop{
     text-decoration: none;
     background-image: radial-gradient( orange, red);
     padding: 10px 50px;
-    border-radius: 5px;
+    margin-top: 50px;
+    border-radius: 40px;
     color: white;
     font-weight: 400;
 }
@@ -65,11 +73,14 @@ h1{
 .footer{
     color: white;
     background-color: black;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
     
 }
 
 .footer-span1{
-    color: indianred;
+    color: rgb(230, 196, 4);
 }
 .footer-span2{
     color: grey
