@@ -85,3 +85,20 @@ h1{
 .footer-span2{
     color: grey
 }
+
+.header {
+    overflow: hidden;
+    background-color: rgba(241, 76, 35, 0.863);
+  }
+.header ul li{
+    display: inline;
+}
+.header a {
+    display: inline;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+  }
