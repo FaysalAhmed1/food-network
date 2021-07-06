@@ -9,7 +9,7 @@ h1{
 .highlight{
     color: aqua;
 }
-section{
+.flexible-container{
     display: flex;
     padding-bottom: 100px;
 }
@@ -29,7 +29,23 @@ section{
 .half-width img{
     width: 70%;
 }
+.fraction-width{
+    width: 30%;
+    padding: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 5px 10px 20px grey;
 
+}
+.fraction-width img{
+    width: 80%;
+    border-radius: 10%;
+}
+
+.recepie{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .shop{
     text-decoration: none;
     background-image: radial-gradient( orange, red);
@@ -39,3 +55,22 @@ section{
     font-weight: 400;
 }
 
+.achievements{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    
+}
+
+.footer-span1{
+    color: indianred;
+}
+.footer-span2{
+    color: grey
+}
